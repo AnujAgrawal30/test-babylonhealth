@@ -1,0 +1,862 @@
+{
+  "repoId": "repoId",
+  "repoName": "",
+  "repoURL": "",
+  "branchName": "master",
+  "commitId": "",
+  "customerId": "cliCustomer",
+  "scanId": null,
+  "permissionList": [],
+  "piiList": [
+    {
+      "category": "Online Identifiers",
+      "element": "Cookies",
+      "dataSafetyElement": "Device or other IDs",
+      "dataSafetyCategory": "Device or other IDs",
+      "sensitive": false,
+      "sensitivity": "medium",
+      "score": 1.3,
+      "confidence": "high",
+      "scoringPoints": [
+        "high confidence",
+        "Positive Word Matched",
+        "CaseDependant Matched"
+      ],
+      "occurrences": [
+        {
+          "score": 1.3,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "Positive Word Matched",
+            "CaseDependant Matched"
+          ],
+          "sample": "cookie",
+          "fileName": "www.babylonhealth.com/blog/business/analytics-solution.html",
+          "language": "html",
+          "excerpt": "  <script src=\"/assets/scripts/a11y-dialog.min.js\">\n  </script>\n  <script>\n   document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';\n  </script>\n  <title>\n   Analytics Solutions: Build In-House or Buy\u2026 | Babylon Health\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 12,
+              "endIndex": 18
+            }
+          ],
+          "startLocationLine": 91,
+          "authorEmail": null
+        },
+        {
+          "score": 1.3,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "Positive Word Matched",
+            "CaseDependant Matched"
+          ],
+          "sample": "cookie",
+          "fileName": "www.babylonhealth.com/hc/en-us/articles/360004022977-Where-can-I-find-my-code-.html",
+          "language": "html",
+          "excerpt": "  <script src=\"/assets/scripts/a11y-dialog.min.js\">\n  </script>\n  <script>\n   document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';\n  </script>\n  <title>\n   Babylon Health\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 12,
+              "endIndex": 18
+            }
+          ],
+          "startLocationLine": 85,
+          "authorEmail": null
+        },
+        {
+          "score": 0.5,
+          "confidence": "low",
+          "scoringPoints": [
+            "high confidence"
+          ],
+          "sample": "cookie",
+          "fileName": "www.babylonhealth.com/en-us.html",
+          "language": "html",
+          "excerpt": "                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h6,\n                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li,\n                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy p,\n                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,\n                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy span,\n                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td,\n                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description {\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 0,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 0,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 1,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 1,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 2,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 2,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 3,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 3,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 4,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 4,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 5,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 5,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 67,
+              "endIndex": 73
+            }
+          ],
+          "startLocationLine": 246,
+          "authorEmail": null
+        },
+        {
+          "score": 0.5,
+          "confidence": "low",
+          "scoringPoints": [
+            "high confidence"
+          ],
+          "sample": "cookie",
+          "fileName": "www.babylonhealth.com/en-us.html",
+          "language": "html",
+          "excerpt": "                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li,\n                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy p,\n                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,\n                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy span,\n                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td,\n                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description {\n                        color: #696969;\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 0,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 0,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 1,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 1,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 2,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 2,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 3,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 3,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 4,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 4,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 5,
+              "startIndex": 28,
+              "endIndex": 34
+            },
+            {
+              "lineNumber": 5,
+              "startIndex": 52,
+              "endIndex": 58
+            },
+            {
+              "lineNumber": 5,
+              "startIndex": 67,
+              "endIndex": 73
+            }
+          ],
+          "startLocationLine": 247,
+          "authorEmail": null
+        },
+        {
+          "score": 0.5,
+          "confidence": "low",
+          "scoringPoints": [
+            "high confidence"
+          ],
+          "sample": "cookie",
+          "fileName": "www.babylonhealth.com/en-gb/about.html",
+          "language": "html",
+          "excerpt": "                            color: #FFFFFF;\n                        }\n            #onetrust-consent-sdk #onetrust-pc-btn-handler,\n            #onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link {\n                color: #400099; border-color: #400099;\n                background-color: \n                #FFFFFF;\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 59,
+              "endIndex": 65
+            }
+          ],
+          "startLocationLine": 131,
+          "authorEmail": null
+        }
+      ]
+    },
+    {
+      "category": "Personal Identification",
+      "element": "First Name",
+      "dataSafetyElement": "Name",
+      "dataSafetyCategory": "Personal info",
+      "sensitive": false,
+      "sensitivity": "low",
+      "score": 1.3,
+      "confidence": "high",
+      "scoringPoints": [
+        "high confidence",
+        "Positive Word Matched",
+        "CaseDependant Matched"
+      ],
+      "occurrences": [
+        {
+          "score": 1.3,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "Positive Word Matched",
+            "CaseDependant Matched"
+          ],
+          "sample": "first_name",
+          "fileName": "www.babylonhealth.com/en-us/contact.html",
+          "language": "html",
+          "excerpt": "          <input name=\"lead_source\" type=\"hidden\" value=\"Inbound Web\"/>\n          <input id=\"00N5800000CBQ0g\" name=\"00N5800000CBQ0g\" title=\"Lead Type\" type=\"hidden\" value=\"US Marketing Website\"/>\n          <div class=\"dna-form__field\">\n           <label class=\"dna-form__label\" for=\"first_name\">\n            First Name\n           </label>\n           <input class=\"dna-form__input\" id=\"first_name\" maxlength=\"40\" name=\"first_name\" required=\"\" size=\"20\" type=\"text\"/>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 47,
+              "endIndex": 57
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 46,
+              "endIndex": 56
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 79,
+              "endIndex": 89
+            }
+          ],
+          "startLocationLine": 846,
+          "authorEmail": null
+        },
+        {
+          "score": 1.3,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "Positive Word Matched",
+            "CaseDependant Matched"
+          ],
+          "sample": "first_name",
+          "fileName": "www.babylonhealth.com/en-us/babylon-cloud-services.html",
+          "language": "html",
+          "excerpt": "           <label class=\"dna-form__label\" for=\"first_name\">\n            First Name\n           </label>\n           <input class=\"dna-form__input\" id=\"first_name\" maxlength=\"40\" name=\"first_name\" required=\"\" size=\"20\" type=\"text\"/>\n          </div>\n          <div class=\"dna-form__field\">\n           <label class=\"dna-form__label\" for=\"last_name\">\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 0,
+              "startIndex": 47,
+              "endIndex": 57
+            },
+            {
+              "lineNumber": 3,
+              "startIndex": 46,
+              "endIndex": 56
+            },
+            {
+              "lineNumber": 3,
+              "startIndex": 79,
+              "endIndex": 89
+            }
+          ],
+          "startLocationLine": 871,
+          "authorEmail": null
+        },
+        {
+          "score": 1.3,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "Positive Word Matched",
+            "CaseDependant Matched"
+          ],
+          "sample": "first_name",
+          "fileName": "www.babylonhealth.com/en-us/babylon-cloud-services.html",
+          "language": "html",
+          "excerpt": "          <input name=\"lead_source\" type=\"hidden\" value=\"Inbound Web\"/>\n          <input id=\"00N5800000CBQ0g\" name=\"00N5800000CBQ0g\" title=\"Lead Type\" type=\"hidden\" value=\"US Marketing Website\"/>\n          <div class=\"dna-form__field\">\n           <label class=\"dna-form__label\" for=\"first_name\">\n            First Name\n           </label>\n           <input class=\"dna-form__input\" id=\"first_name\" maxlength=\"40\" name=\"first_name\" required=\"\" size=\"20\" type=\"text\"/>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 47,
+              "endIndex": 57
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 46,
+              "endIndex": 56
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 79,
+              "endIndex": 89
+            }
+          ],
+          "startLocationLine": 868,
+          "authorEmail": null
+        }
+      ]
+    },
+    {
+      "category": "Personal Identification",
+      "element": "Last Name",
+      "dataSafetyElement": "Name",
+      "dataSafetyCategory": "Personal info",
+      "sensitive": false,
+      "sensitivity": "low",
+      "score": 1.3,
+      "confidence": "high",
+      "scoringPoints": [
+        "high confidence",
+        "Positive Word Matched",
+        "CaseDependant Matched"
+      ],
+      "occurrences": [
+        {
+          "score": 1.3,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "Positive Word Matched",
+            "CaseDependant Matched"
+          ],
+          "sample": "last_name",
+          "fileName": "www.babylonhealth.com/en-us/babylon-cloud-services.html",
+          "language": "html",
+          "excerpt": "           <label class=\"dna-form__label\" for=\"last_name\">\n            Last Name\n           </label>\n           <input class=\"dna-form__input\" id=\"last_name\" maxlength=\"80\" name=\"last_name\" required=\"\" size=\"20\" type=\"text\"/>\n          </div>\n          <div class=\"dna-form__field\">\n           <label class=\"dna-form__label\" for=\"email\">\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 0,
+              "startIndex": 47,
+              "endIndex": 56
+            },
+            {
+              "lineNumber": 3,
+              "startIndex": 46,
+              "endIndex": 55
+            },
+            {
+              "lineNumber": 3,
+              "startIndex": 78,
+              "endIndex": 87
+            }
+          ],
+          "startLocationLine": 877,
+          "authorEmail": null
+        },
+        {
+          "score": 1.3,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "Positive Word Matched",
+            "CaseDependant Matched"
+          ],
+          "sample": "last_name",
+          "fileName": "www.babylonhealth.com/en-us/babylon-cloud-services.html",
+          "language": "html",
+          "excerpt": "           <input class=\"dna-form__input\" id=\"first_name\" maxlength=\"40\" name=\"first_name\" required=\"\" size=\"20\" type=\"text\"/>\n          </div>\n          <div class=\"dna-form__field\">\n           <label class=\"dna-form__label\" for=\"last_name\">\n            Last Name\n           </label>\n           <input class=\"dna-form__input\" id=\"last_name\" maxlength=\"80\" name=\"last_name\" required=\"\" size=\"20\" type=\"text\"/>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 47,
+              "endIndex": 56
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 46,
+              "endIndex": 55
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 78,
+              "endIndex": 87
+            }
+          ],
+          "startLocationLine": 874,
+          "authorEmail": null
+        },
+        {
+          "score": 1.3,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "Positive Word Matched",
+            "CaseDependant Matched"
+          ],
+          "sample": "last_name",
+          "fileName": "www.babylonhealth.com/en-us/contact.html",
+          "language": "html",
+          "excerpt": "           <input class=\"dna-form__input\" id=\"first_name\" maxlength=\"40\" name=\"first_name\" required=\"\" size=\"20\" type=\"text\"/>\n          </div>\n          <div class=\"dna-form__field\">\n           <label class=\"dna-form__label\" for=\"last_name\">\n            Last Name\n           </label>\n           <input class=\"dna-form__input\" id=\"last_name\" maxlength=\"80\" name=\"last_name\" required=\"\" size=\"20\" type=\"text\"/>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 47,
+              "endIndex": 56
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 46,
+              "endIndex": 55
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 78,
+              "endIndex": 87
+            }
+          ],
+          "startLocationLine": 852,
+          "authorEmail": null
+        }
+      ]
+    },
+    {
+      "category": "Contact Data",
+      "element": "Email Address",
+      "dataSafetyElement": "Email address",
+      "dataSafetyCategory": "Personal info",
+      "sensitive": false,
+      "sensitivity": "medium",
+      "score": 1.3,
+      "confidence": "high",
+      "scoringPoints": [
+        "high confidence",
+        "Positive Word Matched",
+        "CaseDependant Matched"
+      ],
+      "occurrences": [
+        {
+          "score": 1.3,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "Positive Word Matched",
+            "CaseDependant Matched"
+          ],
+          "sample": "Email",
+          "fileName": "www.babylonhealth.com/en-us/babylon-cloud-services.html",
+          "language": "html",
+          "excerpt": "          </div>\n          <div class=\"dna-form__field\">\n           <label class=\"dna-form__label\" for=\"email\">\n            Email\n           </label>\n           <input class=\"dna-form__input\" id=\"email\" maxlength=\"80\" name=\"email\" required=\"\" size=\"20\" type=\"text\"/>\n          </div>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 12,
+              "endIndex": 17
+            }
+          ],
+          "startLocationLine": 881,
+          "authorEmail": null
+        },
+        {
+          "score": 1.0,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "Positive Word Matched"
+          ],
+          "sample": "email",
+          "fileName": "www.babylonhealth.com/en-us/babylon-cloud-services.html",
+          "language": "html",
+          "excerpt": "           <label class=\"dna-form__label\" for=\"email\">\n            Email\n           </label>\n           <input class=\"dna-form__input\" id=\"email\" maxlength=\"80\" name=\"email\" required=\"\" size=\"20\" type=\"text\"/>\n          </div>\n          <div class=\"dna-form__field\">\n           <label class=\"dna-form__label\" for=\"company\">\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 0,
+              "startIndex": 47,
+              "endIndex": 52
+            },
+            {
+              "lineNumber": 3,
+              "startIndex": 46,
+              "endIndex": 51
+            },
+            {
+              "lineNumber": 3,
+              "startIndex": 74,
+              "endIndex": 79
+            }
+          ],
+          "startLocationLine": 883,
+          "authorEmail": null
+        },
+        {
+          "score": 1.0,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "Positive Word Matched"
+          ],
+          "sample": "email",
+          "fileName": "www.babylonhealth.com/en-us/babylon-cloud-services.html",
+          "language": "html",
+          "excerpt": "           <input class=\"dna-form__input\" id=\"last_name\" maxlength=\"80\" name=\"last_name\" required=\"\" size=\"20\" type=\"text\"/>\n          </div>\n          <div class=\"dna-form__field\">\n           <label class=\"dna-form__label\" for=\"email\">\n            Email\n           </label>\n           <input class=\"dna-form__input\" id=\"email\" maxlength=\"80\" name=\"email\" required=\"\" size=\"20\" type=\"text\"/>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 47,
+              "endIndex": 52
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 46,
+              "endIndex": 51
+            },
+            {
+              "lineNumber": 6,
+              "startIndex": 74,
+              "endIndex": 79
+            }
+          ],
+          "startLocationLine": 880,
+          "authorEmail": null
+        },
+        {
+          "score": 0.8,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "CaseDependant Matched"
+          ],
+          "sample": "email",
+          "fileName": "www.babylonhealth.com/coronavirus/prevention-and-treatment.html",
+          "language": "html",
+          "excerpt": " need to continue self-isolating. This is because these symptoms can persist once the infection is over and it doesn\u2019t mean you are still infectious.\n        </p>\n        <p>\n         <strong>\n          People who live with someone with COVID-19 symptoms\n         </strong>\n        </p>\n        <ul>\n        </ul>\n        <p>\n         If one person has symptoms of COVID-19, the rest of the household may need to self-isolate from the day their symptoms start and the next 10 full days, as it is likely that people who live in the same household will infect one another, or already be infected. In certain circumstances your household do not need to self-isolate, please see the\n         <a href=\"https://www.gov.uk/guidance/covid-19-coronavirus-restrictions-what-you-can-and-cannot-do?utm_medium=email&amp;utm_campaign=govuk-notifications&amp;utm_source=741aec9f-38ca-4489-95bf-604f92eecad1&amp;utm_content=daily\">\n          UK Gov webpage\n         </a>\n         for more details.\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 11,
+              "startIndex": 118,
+              "endIndex": 123
+            }
+          ],
+          "startLocationLine": 763,
+          "authorEmail": null
+        }
+      ]
+    },
+    {
+      "category": "Health Data",
+      "element": "Disability or Specific Condition",
+      "dataSafetyElement": "Health info",
+      "dataSafetyCategory": "Health and fitness",
+      "sensitive": true,
+      "sensitivity": "high",
+      "score": 0.8,
+      "confidence": "high",
+      "scoringPoints": [
+        "high confidence",
+        "CaseDependant Matched"
+      ],
+      "occurrences": [
+        {
+          "score": 0.8,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "CaseDependant Matched"
+          ],
+          "sample": "Depression",
+          "fileName": "www.babylonhealth.com/en-gb/what-we-treat.html",
+          "language": "html",
+          "excerpt": "              </p>\n              <p>\n               <a href=\"https://www.babylonhealth.com/what-we-treat/depression\">\n                Depression\n               </a>\n               <br/>\n               <br/>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 16,
+              "endIndex": 26
+            }
+          ],
+          "startLocationLine": 694,
+          "authorEmail": null
+        },
+        {
+          "score": 0.5,
+          "confidence": "low",
+          "scoringPoints": [
+            "high confidence"
+          ],
+          "sample": "depression",
+          "fileName": "www.babylonhealth.com/en-gb/what-we-treat.html",
+          "language": "html",
+          "excerpt": "               <br/>\n              </p>\n              <p>\n               <a href=\"https://www.babylonhealth.com/what-we-treat/depression\">\n                Depression\n               </a>\n               <br/>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 68,
+              "endIndex": 78
+            }
+          ],
+          "startLocationLine": 693,
+          "authorEmail": null
+        }
+      ]
+    },
+    {
+      "category": "Contact Data",
+      "element": "Phone Number",
+      "dataSafetyElement": "Phone number",
+      "dataSafetyCategory": "Personal info",
+      "sensitive": false,
+      "sensitivity": "medium",
+      "score": 0.8,
+      "confidence": "high",
+      "scoringPoints": [
+        "high confidence",
+        "CaseDependant Matched"
+      ],
+      "occurrences": [
+        {
+          "score": 0.8,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "CaseDependant Matched"
+          ],
+          "sample": "Phone",
+          "fileName": "www.babylonhealth.com/en-gb/terms.html",
+          "language": "html",
+          "excerpt": "          </u>\n         </a>\n         <br/>\n         Phone:\n         <a href=\"tel:03302 231 008\">\n          <u>\n           03302 231 008\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 9,
+              "endIndex": 14
+            }
+          ],
+          "startLocationLine": 1285,
+          "authorEmail": null
+        },
+        {
+          "score": 0.8,
+          "confidence": "high",
+          "scoringPoints": [
+            "high confidence",
+            "CaseDependant Matched"
+          ],
+          "sample": "Phone",
+          "fileName": "support.babylonhealth.com/hc/en-us/articles/213581285-Can-I-get-medication-delivered.html",
+          "language": "html",
+          "excerpt": "         </p>\n         <p>\n          <span style=\"font-weight: 400;\">\n           Phone: 020 8191 0344\n          </span>\n         </p>\n         <p>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 11,
+              "endIndex": 16
+            }
+          ],
+          "startLocationLine": 777,
+          "authorEmail": null
+        },
+        {
+          "score": 0.5,
+          "confidence": "low",
+          "scoringPoints": [
+            "high confidence"
+          ],
+          "sample": "phone",
+          "fileName": "www.babylonhealth.com/terms/cookies.html",
+          "language": "html",
+          "excerpt": "          <a href=\"mailto:support@babylonhealth.com\">\n           support@babylonhealth.com\n          </a>\n          or phone: +4402071000762\n         </p>\n        </div>\n       </div>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 13,
+              "endIndex": 18
+            }
+          ],
+          "startLocationLine": 946,
+          "authorEmail": null
+        },
+        {
+          "score": 0.5,
+          "confidence": "low",
+          "scoringPoints": [
+            "high confidence"
+          ],
+          "sample": "phone",
+          "fileName": "www.babylonhealth.com/en-gb/partnerships.html",
+          "language": "html",
+          "excerpt": "          <div class=\"css-1ty08jx\">\n           <video autoplay=\"\" data-kontent-element-codename=\"video\">\n            <source data-kontent-element-codename=\"video_url__webm_\" src=\"https://d28prrnvtxqzuk.cloudfront.net/partnerships-phone-circles.webm\" type=\"video/webm\"/>\n            <source data-kontent-element-codename=\"video_url__mp4_\" src=\"https://d28prrnvtxqzuk.cloudfront.net/partnerships-phone-circles.mp4\" type=\"video/mp4\"/>\n           </video>\n          </div>\n         </div>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 2,
+              "startIndex": 125,
+              "endIndex": 130
+            },
+            {
+              "lineNumber": 3,
+              "startIndex": 124,
+              "endIndex": 129
+            }
+          ],
+          "startLocationLine": 1122,
+          "authorEmail": null
+        },
+        {
+          "score": 0.5,
+          "confidence": "low",
+          "scoringPoints": [
+            "high confidence"
+          ],
+          "sample": "phone",
+          "fileName": "www.babylonhealth.com/en-gb/partnerships.html",
+          "language": "html",
+          "excerpt": "         <div class=\"css-1ofqig9\" data-kontent-item-id=\"25f5187e-6655-4f43-badd-a180c2dddbc7\" data-test=\"mapper__default-view\">\n          <div class=\"css-1ty08jx\">\n           <video autoplay=\"\" data-kontent-element-codename=\"video\">\n            <source data-kontent-element-codename=\"video_url__webm_\" src=\"https://d28prrnvtxqzuk.cloudfront.net/partnerships-phone-circles.webm\" type=\"video/webm\"/>\n            <source data-kontent-element-codename=\"video_url__mp4_\" src=\"https://d28prrnvtxqzuk.cloudfront.net/partnerships-phone-circles.mp4\" type=\"video/mp4\"/>\n           </video>\n          </div>\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 125,
+              "endIndex": 130
+            },
+            {
+              "lineNumber": 4,
+              "startIndex": 124,
+              "endIndex": 129
+            }
+          ],
+          "startLocationLine": 1121,
+          "authorEmail": null
+        }
+      ]
+    },
+    {
+      "category": "User Content Data",
+      "element": "Ratings",
+      "dataSafetyElement": "Other user-generated content",
+      "dataSafetyCategory": "App activity",
+      "sensitive": false,
+      "sensitivity": "medium",
+      "score": 0.8,
+      "confidence": "high",
+      "scoringPoints": [
+        "medium confidence",
+        "Positive Word Matched",
+        "CaseDependant Matched"
+      ],
+      "occurrences": [
+        {
+          "score": 0.8,
+          "confidence": "high",
+          "scoringPoints": [
+            "medium confidence",
+            "Positive Word Matched",
+            "CaseDependant Matched"
+          ],
+          "sample": "Ratings",
+          "fileName": "www.babylonhealth.com/press.html",
+          "language": "html",
+          "excerpt": "        90% 5 Stars\n       </span>\n       <span class=\"stat-label dna-body-text\">\n        In-app Ratings\n       </span>\n      </p>\n      <p class=\"stat\">\n",
+          "isCorrect": null,
+          "occurrenceIndexes": [
+            {
+              "lineNumber": 3,
+              "startIndex": 15,
+              "endIndex": 22
+            }
+          ],
+          "startLocationLine": 488,
+          "authorEmail": null
+        }
+      ]
+    }
+  ],
+  "vendorList": [],
+  "interestsubjectList": [],
+  "created": "2022-03-04 09:11:00.177278",
+  "updated": "2022-03-04 09:11:00.177302"
+}
